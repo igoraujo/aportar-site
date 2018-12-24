@@ -32,7 +32,8 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Aportar Representações</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        Aportar Representações</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -83,25 +84,26 @@
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Entendemos seu produto</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <!-- <i class="fas fa-laptop fa-stack-1x fa-inverse"></i> -->
+              <i class="fas fa-bullhorn fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Divulgamos seu produto</h4>
+            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">E-Commerce</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Responsive Design</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Web Security</h4>
+            <h4 class="service-heading">Vendemos seu produto</h4>
             <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
           </div>
         </div>
@@ -276,9 +278,9 @@
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <h4>Be Part
-                    <br>Of Our
-                    <br>Story!</h4>
+                  <h4>Seja Parte
+                    <br>da Nossa
+                    <br>História!</h4>
                 </div>
               </li>
             </ul>
@@ -299,9 +301,9 @@
         <div class="row">
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Kay Garland</h4>
-              <p class="text-muted">Lead Designer</p>
+              <img class="mx-auto rounded-circle" src="img/team/ranfleysson.jpg" alt="">
+              <h4>Ranfleysson Matheus</h4>
+              <p class="text-muted">CEO</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#" target="_blank" rel="noopener noreferrer">
@@ -323,9 +325,9 @@
           </div>
           <div class="col-sm-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>Larry Parker</h4>
-              <p class="text-muted">Lead Marketer</p>
+              <img class="mx-auto rounded-circle" src="img/team/igor.jpeg" alt="">
+              <h4>Igor Araújo</h4>
+              <p class="text-muted">CIO</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#" target="_blank" rel="noopener noreferrer">
@@ -349,7 +351,7 @@
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
               <h4>Diana Pertersen</h4>
-              <p class="text-muted">Lead Developer</p>
+              <p class="text-muted">Figurante</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#" target="_blank" rel="noopener noreferrer">
