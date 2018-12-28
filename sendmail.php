@@ -6,8 +6,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use Symfony\Component\Dotenv\Dotenv;
 
-$mail = new PHPMailer();
+$mail = new PHPMailer(true);
 
+$mail->SMTPDebug = 2;
 // Define que a mensagem será SMTP
 $mail->IsSMTP();
 
@@ -41,7 +42,6 @@ $mail->Body = 'Conteudo da mensagem';
 
 // Conteúdo no corpo da mensagem(texto plano)
 $mail->AltBody = 'Conteudo da mensagem em texto plano';
-
 
 //Envio da Mensagem
 $enviado = $mail->Send();
