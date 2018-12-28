@@ -42,8 +42,7 @@ $mail->Body = 'Conteudo da mensagem';
 // Conteúdo no corpo da mensagem(texto plano)
 $mail->AltBody = 'Conteudo da mensagem em texto plano';
 
-echo "<h1>aqui</h1>";
-return;
+
 //Envio da Mensagem
 $enviado = $mail->Send();
 
