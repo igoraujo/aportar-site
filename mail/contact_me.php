@@ -1,5 +1,5 @@
 <?php
-
+header('Content-Type: text/html; charset=utf-8');
 // Check for empty fields
 if(empty($_POST['name'])      ||
    empty($_POST['email'])     ||   
