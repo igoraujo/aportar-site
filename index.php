@@ -958,7 +958,7 @@
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="email" email="email" type="email" placeholder="Seu E-mail *" required="required" data-validation-required-message="Não se esqueça do seu e-mail.">
+                    <input class="form-control" id="email" name="email" type="email" placeholder="Seu E-mail *" required="required" data-validation-required-message="Não se esqueça do seu e-mail.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">

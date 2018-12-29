@@ -2,55 +2,107 @@
 //Import the PHPMailer class into the global namespace
 require __DIR__.'/vendor/autoload.php';
 
+header('Content-Type: application/json; charset=utf-8');
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use Symfony\Component\Dotenv\Dotenv;
 
-$mail = new PHPMailer(true);
+class Main {
 
-$mail->SMTPDebug = 2;
-// Define que a mensagem será SMTP
-$mail->IsSMTP();
+  public function __construct() {
+    $this->NAME = $_POST['name'];
+    $this->EMAIL = $_POST['email'];
+    $this->MSG = $_POST['message'];
+    // $this->PHONE = $_POST['phone'];
+    $this->URL = $_SERVER["HTTP_HOST"];
+    $this->SUBJECT = 'Contato';
 
-// Host do servidor SMTP externo, como o SendGrid.
-$mail->Host = "smtp-mail.outlook.com";
+    $this->dotenv = new Dotenv();
+    $this->dotenv->load(__DIR__.'/.env');
+    
+    $this->smtp = getenv('HOST');
+    $this->userName = getenv('USER_NAME');
+    $this->pass = getenv('PASSWORD');
+    $this->from = getenv('FROM');
+    $this->fromName = getenv('FROM_NAME');
 
-// Autenticação | True
-$mail->SMTPAuth = true;
+    
 
-// Usuário do servidor SMTP
-$mail->Username = 'igoraujo@outlook.com';
+    $this->sendMail();
+  }
 
-// Senha da caixa postal utilizada
-$mail->Password = 'mg16126952';
+  private function sendMail() {
+    $mail = new PHPMailer();
+    
+    // Define que a mensagem será SMTP
+    $mail->IsSMTP();
 
-$mail->From = "igoraujo@outlook.com";
-$mail->FromName = "Nome do Remetente ";
-$mail->AddAddress('igoraujo93@gmail.com', 'Nome do Destinatário');
+    // Host do servidor SMTP externo, como o SendGrid.
+    $mail->Host = $this->smtp;
 
-// Define que o e-mail será enviado como HTML | True
-$mail->IsHTML(true);
+    // Autenticação | True
+    $mail->SMTPAuth = true;
 
-// Charset da mensagem (opcional)
-// $mail->CharSet = 'iso-8859-1';
+    // Usuário do servidor SMTP
+    $mail->Username = $this->userName; 
 
-// Assunto da mensagem
-$mail->Subject = "Mensagem Teste";
+    // Senha da caixa postal utilizada
+    $mail->Password = $this->pass;
 
-// Conteúdo no corpo da mensagem
-$mail->Body = 'Conteudo da mensagem';
+    $mail->From = $this->from;
+    $mail->FromName = $this->fromName;
+    $mail->AddAddress($this->EMAIL, $this->NAME);
 
-// Conteúdo no corpo da mensagem(texto plano)
-$mail->AltBody = 'Conteudo da mensagem em texto plano';
+    // Define que o e-mail será enviado como HTML | True
+    $mail->IsHTML(true);
 
-//Envio da Mensagem
-$enviado = $mail->Send();
+    // Charset da mensagem (opcional)
+    $mail->CharSet = 'UTF-8';
 
-$mail->ClearAllRecipients();
+    // Assunto da mensagem
+    $mail->Subject = $this->SUBJECT;
 
-if ($enviado) {
-  echo "E-mail enviado com sucesso!";
-} else {
-  echo "Não foi possível enviar o e-mail.";
-  echo "Motivo do erro: " . $mail->ErrorInfo;
+    // Conteúdo no corpo da mensagem
+    $message = 
+    '<div class="email">
+        <div><b>Nome: </b>' . $this->NAME . '.</div>
+        <div><b>E-mail: </b>' . $this->EMAIL . '.</div>
+        
+        <div><b>Mensagem: </b><p>' . $this->MSG . '.</p></div>
+     </div>';
+
+     $mail->Body = $message;
+
+    //Envio da Mensagem
+    $enviado = $mail->Send();
+
+    $mail->ClearAllRecipients();
+
+    if ($enviado) {
+      http_response_code(200);
+      $obj = [
+        'code' => 200,
+        'status' => 'Success',
+        'message' => 'E-mail enviado com sucesso!'
+      ];
+      
+      echo '<script>console.log('.$obj.')</script>';
+      return;
+    } else {
+      $masgError = $mail->ErrorInfo;
+      http_response_code(500);
+      $obj = [
+        'code' => 500,
+        'status' => 'Intrenal Server',
+        'message' => 'Não foi possível enviar o e-mail.',
+        'detail:'=> $this->EMAIL
+      ];
+      
+      echo json_encode($obj);
+      return;
+    }
+  }
+
 }
+$main = new Main;
