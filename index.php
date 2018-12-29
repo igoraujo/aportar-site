@@ -950,7 +950,7 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form id="contactForm"  action="sendmail.php" method="post">
+            <form id="contactForm"  action="mail/contact_me.php" method="post">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -1239,7 +1239,7 @@
 
     <!-- Contact form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
-    <!-- <script src="js/contact_me.js"></script> -->
+    <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
