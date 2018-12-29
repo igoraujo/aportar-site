@@ -1016,7 +1016,7 @@
                 <i class="far fa-envelope-open" style="color:#006F80"></i><a href="mailto:contato@aportar.me">&nbsp;&nbsp;contato@aportar.me</a>
               </li>
               <li class="list-inline-item">
-                <i class="fas fa-phone-square" style="color:#006F80"></i> <a href="tel:3891516487">&nbsp;&nbsp;+55 38 9151-6487</a>
+                <i class="fas fa-phone-square" style="color:#006F80"></i> <a href="tel:3891516487">git+55 38 99151-6487</a>
               </li>
             </ul>
           </div>
