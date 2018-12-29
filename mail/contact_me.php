@@ -23,8 +23,8 @@ $to = 'contato@aportar.me'; // Add your email address inbetween the '' replacing
 $email_subject = "Contato via site de:  $name";
 $email_body = "Mensagem de contato do https://aportar.me recebida.\n\n"."Detalhes:\n\nNome: $name\n\nE-mail: $email_address\n\nTelefone: $phone\n\nMensagem:\n$message";
 $headers = "From: contato@aportar.me\n";
+$headers .= "Reply-To: $email_address\n";
 $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
-$headers .= "Reply-To: $email_address";
 
 echo mail($to,$email_subject,$email_body,$headers);
 return true;
