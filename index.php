@@ -950,7 +950,7 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form id="contactForm"  action="mail/contact_me.php" method="post">
+            <form id="contactForm"  action="sendmail.php" method="post">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
