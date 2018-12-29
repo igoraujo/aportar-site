@@ -20,7 +20,7 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     
-    <link rel="icon" href="img/logos/favicon.png" />
+    <link rel="icon" href="img/logos/favicon.ico" />
 
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
@@ -32,7 +32,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="text-shadow:2px 2px 3px #000; padding:8px;">
       <div class="container">
-        <a href="www.google.com">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="210px" height="60px" viewBox="0 0 300 86" enable-background="new 0 0 300 86" xml:space="preserve">
             <image id="image0" width="300" height="86" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAABWEAYAAAAlI3clAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
               AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0T///////8JWPfcAAAA
@@ -836,7 +836,7 @@
               <h4>Ranfleysson Matheus</h4>
               <p class="text-muted">CEO</p>
               <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
+                <!-- <li class="list-inline-item">
                   <a href="#" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-twitter"></i>
                   </a>
@@ -845,9 +845,9 @@
                   <a href="#" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-facebook-f"></i>
                   </a>
-                </li>
+                </li> -->
                 <li class="list-inline-item">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/ranfleysson-matheus-cardoso-de-oliveira-761ab37a/" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-linkedin-in"></i>
                   </a>
                 </li>
@@ -856,11 +856,11 @@
           </div>
           <div class="col-sm-6">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/igor.jpeg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/igor.jpg" alt="">
               <h4>Igor Araújo</h4>
               <p class="text-muted">CIO</p>
               <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
+                <!-- <li class="list-inline-item">
                   <a href="#" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-twitter"></i>
                   </a>
@@ -869,9 +869,9 @@
                   <a href="#" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-facebook-f"></i>
                   </a>
-                </li>
+                </li> -->
                 <li class="list-inline-item">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/igoraujo/" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-linkedin-in"></i>
                   </a>
                 </li>
@@ -989,7 +989,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Aportar.me 2018</span>
+            <span class="copyright">Copyright &copy; <a href="https://aportar.me">aportar.me</a> 2018</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
@@ -1013,10 +1013,10 @@
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
+                <i class="far fa-envelope-open" style="color:#006F80"></i><a href="mailto:contato@aportar.me">&nbsp;&nbsp;contato@aportar.me</a>
               </li>
               <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
+                <i class="fas fa-phone-square" style="color:#006F80"></i> <a href="tel:3891516487">&nbsp;&nbsp;+55 38 9151-6487</a>
               </li>
             </ul>
           </div>
