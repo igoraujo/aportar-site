@@ -15,6 +15,17 @@
     <meta name="generator" content="N/A">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://aportar.me">
+    <meta property="og:title" content="Aportar - Representações">
+    <meta property="og:site_name" content="Aportar - Representações">
+
+    <meta property="og:description" content="A missão da Aportar é promover o seu produto. Somos uma empresa interessada em facilitar seu trabalho.">
+    <meta property="og:image" content="https://aportar.me/img/logos/logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="540">
+    <meta property="og:image:height" content="154">
+
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
