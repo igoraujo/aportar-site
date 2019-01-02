@@ -780,7 +780,7 @@
                     <h4 class="subheading">Nosso Começo</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Como toda história de sucesso tem um início, a nossa não pode ficar de fora. Elaborada em 2018 através da necessidade que as Empresas os Empreendedores tem de levar o seu produto ou marca até o seu cliente, a Aportar foi criada. O que nos motiva é saber que podemos facilitar todo o seu trabalho. Faça parte de nossa história e deixe-nos ajudar a contar a sua.</p>
+                    <p class="text-muted">Como toda história de sucesso tem um início, a nossa não pode ficar de fora. Elaborada em 2018 através da necessidade que as Empresas e Empreendedores tem de levar o seu produto ou marca até o seu cliente, a Aportar foi criada. O que nos motiva é saber que podemos facilitar todo o seu trabalho, faça parte de nossa história e deixe-nos ajudar a contar a sua.</p>
                   </div>
                 </div>
               </li>
