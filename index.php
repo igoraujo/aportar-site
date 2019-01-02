@@ -1016,11 +1016,11 @@
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
+              <!-- <li class="list-inline-item">
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
-              </li>
+              </li> -->
             </ul>
           </div>
           <div class="col-md-4">
@@ -1029,7 +1029,7 @@
                 <i class="far fa-envelope-open" style="color:#006F80"></i><a href="mailto:contato@aportar.me">&nbsp;&nbsp;contato@aportar.me</a>
               </li>
               <li class="list-inline-item">
-                <i class="fas fa-phone-square" style="color:#006F80"></i> <a href="tel:3891516487">git+55 38 99151-6487</a>
+                <i class="fas fa-phone-square" style="color:#006F80"></i> <a href="tel:3891516487">+55 38 99151-6487</a>
               </li>
             </ul>
           </div>
