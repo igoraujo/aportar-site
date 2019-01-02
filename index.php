@@ -574,9 +574,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">O Que Fazemos</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">Sobre Nós</a>
             </li>
@@ -597,6 +597,7 @@
         <div class="intro-text">
           <div class="intro-lead-in">Bem vindo ao Aportar!</div>
           <div class="intro-heading text-uppercase">Prazer em conhecê-lo</div>
+          <div class="intro-lead-in">"O destino do seu <span style="color:#FFDD00">produto</span> é o seu <span style="color:#FFDD00">cliente</span>"</div>          
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Explorar</a>
         </div>
       </div>
@@ -608,7 +609,19 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">O que Fazemos</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">
+              <p> 
+                <span>Vamos imaginar você em uma poltrona bem confortável, reclinável e bem aconchegante. Imaginou?</span><br>
+                <span> Agora imagine sua marca nessas condições.</span><br>
+                <span>A missão da Aportar é promover o seu produto.</span><br>
+                <span>Somos uma empresa interessada em facilitar seu trabalho.</span>
+              </p>
+              <p>
+                <span>Contamos com uma equipe de vendedores talentosos e experientes.</span><br>
+                <span>A Aportar ajuda Empresas e Empreendedores a alavancar suas vendas e expandir seu negócio.</span><br>
+                <span>Nosso objetivo é simples: Fazer com que seu produto chegue até o seu cliente.</span>
+              </p>
+            </h3>
           </div>
         </div>
         <div class="row text-center">
@@ -618,7 +631,7 @@
               <i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Entendemos seu produto</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <p class="text-muted">Identificamos seu cliente alvo.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -627,7 +640,7 @@
               <i class="fas fa-bullhorn fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Divulgamos seu produto</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <p class="text-muted">Oferecemos seu produto.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -635,19 +648,19 @@
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Vendemos seu produto</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <p class="text-muted">Somos o ponta a ponta do seu produto ao cliente.</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio">
+    <!-- <section class="bg-light" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Aqui estão alguns de nossos cases</h3>
           </div>
         </div>
         <div class="row">
@@ -737,7 +750,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- About -->
     <section id="about">
@@ -745,7 +758,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Sobre</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Um pouco da nossa história</h3>
           </div>
         </div>
         <div class="row">
@@ -757,15 +770,15 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>2009-2011</h4>
-                    <h4 class="subheading">Our Humble Beginnings</h4>
+                    <h4>2018-2019</h4>
+                    <h4 class="subheading">Nosso Começo</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p class="text-muted">Como toda história de sucesso tem um início, a nossa não pode ficar de fora. Elaborada em 2018 através da necessidade que as Empresas os Empreendedores tem de levar o seu produto ou marca até o seu cliente, a Aportar foi criada. O que nos motiva é saber que podemos facilitar todo o seu trabalho. Faça parte de nossa história e deixe-nos ajudar a contar a sua.</p>
                   </div>
                 </div>
               </li>
-              <li class="timeline-inverted">
+              <!-- <li class="timeline-inverted">
                 <div class="timeline-image">
                   <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
                 </div>
@@ -806,7 +819,7 @@
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
                   </div>
                 </div>
-              </li>
+              </li> -->
               <li class="timeline-inverted">
                 <div class="timeline-image">
                   <h4>Seja Parte
@@ -826,13 +839,13 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">OS FUNDADORES</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Quem está por trás</h3>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-6">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/ranfleysson.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/ranfleysson.jpg" alt="Ranfleysson Matheus Cardoso de Oliveira">
               <h4>Ranfleysson Matheus</h4>
               <p class="text-muted">CEO</p>
               <ul class="list-inline social-buttons">
@@ -856,7 +869,7 @@
           </div>
           <div class="col-sm-6">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/igor.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/igor.jpg" alt="Igor da Silva Araújo">
               <h4>Igor Araújo</h4>
               <p class="text-muted">CIO</p>
               <ul class="list-inline social-buttons">
@@ -905,14 +918,14 @@
         </div>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+            <p class="large text-muted">Cada escolha que você faz tem um resultado final. – "Zig Ziglar"</p>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Clients -->
-    <section class="py-5">
+    <!-- <section class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-md-3 col-sm-6">
@@ -937,7 +950,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Contact -->
     <section id="contact">
@@ -945,7 +958,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Contate-nos</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Deixe-nos um recadinho!</h3>
           </div>
         </div>
         <div class="row">
