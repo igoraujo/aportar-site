@@ -8,7 +8,7 @@
     <meta name="author" content="Igor Araújo">
 
     <meta name="description" content="A missão da Aportar é promover o seu produto. Somos uma empresa interessada em facilitar seu trabalho.">
-    <meta name="keywords" content="vendas, venda, compra, compras, produto, produtos, terceirização, venda de rua, representação, comercial, representação comercial, representante, vendedor">
+    <meta name="keywords" content="vendas, venda, compra, compras, produto, produtos, terceirização, venda de rua, representação, comercial, representação comercial, representante, vendedor, aportar, aporte, aportar-me, aport, apor">
     <meta name="robots" content="index, follow">
     <meta name="revisit-after" content="1 day">
     <meta name="language" content="Portuguese">
@@ -21,10 +21,10 @@
     <meta property="og:site_name" content="Aportar - Representações">
 
     <meta property="og:description" content="A missão da Aportar é promover o seu produto. Somos uma empresa interessada em facilitar seu trabalho.">
-    <meta property="og:image" content="https://aportar.me/img/logos/logo.png">
+    <meta property="og:image" content="https://aportar.me/img/logos/home.png">
     <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="540">
-    <meta property="og:image:height" content="154">
+    <meta property="og:image:width" content="387">
+    <meta property="og:image:height" content="393">
 
 
     <!-- Bootstrap core CSS -->
