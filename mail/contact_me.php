@@ -22,7 +22,7 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 $to = 'contato@aportar.me';
 $email_subject = "Contato via site de: $name";
 $email_body = "<div>Mensagem de contato. </div>"."<div><br><b><u>Detalhes</u>:</b></div><div><b>Nome:&nbsp;&nbsp;</b>".$name."</div><div><b>E-mail:&nbsp;&nbsp;</b>".$email_address."</div><div><b>Telefone:&nbsp;&nbsp;</b>".$phone."</div><div><b>Mensagem:</b></div><div><code>".$message."</code></div>";
-$headers = "From: $email_address\n";
+$headers = "From: contato-site@aportar.me\n";
 $headers .= "Reply-To: $email_address\n";
 $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
