@@ -1048,6 +1048,9 @@
               <li class="list-inline-item">
                 <i class="fas fa-phone-square" style="color:#006F80"></i> <a href="tel:38988192836">+55 38 98819-2836</a>
               </li>
+              <li class="list-inline-item">
+                <i class="fas fa-hand-holding" style="color:#006F80"></i><a href="mailto:vagas@aportar.me">&nbsp;&nbsp;vagas@aportar.me</a>
+              </li>
             </ul>
           </div>
         </div>
