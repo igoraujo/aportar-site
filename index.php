@@ -614,6 +614,9 @@
               <a class="nav-link js-scroll-trigger" href="#team">Nosso Time</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#clients">Clientes</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
             </li>
           </ul>
@@ -955,7 +958,7 @@
     </section>
 
     <!-- Clients -->
-    <section class="py-5">
+    <section class="py-5" id="clients">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-6">
