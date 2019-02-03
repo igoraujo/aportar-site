@@ -958,12 +958,12 @@
     <section class="py-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-6 col-sm-6">
             <a href="http://www.victorpimentelfotografia.com/" target="_blank" rel="noopener noreferrer">
               <img class="img-fluid d-block mx-auto" src="img/logos/clients/victor-pimentel.png" alt="Victor Pimentel fotografia">
             </a>
           </div>
-          <div class="col-md-3 col-sm-6">
+          <div class="col-md-6 col-sm-6">
             <a href="#" rel="noopener noreferrer">
               <img class="img-fluid d-block mx-auto" src="img/logos/clients/kdp.png" alt="KDP multimarcas">
             </a>
@@ -1297,9 +1297,9 @@
 
       let protocol = window.location.protocol;
       
-      // if(protocol.includes("http:")){
-      //   window.location = "https://aportar.me";
-      // }
+      if(protocol.includes("http:")){
+        window.location = "https://aportar.me";
+      }
 
       var SPMaskBehavior = function (val) {
         return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
