@@ -52,6 +52,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+
 
   </head>
 
@@ -961,26 +963,43 @@
     <section class="py-5" id="clients">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-sm-6">
+          <div class="col-md-3 col-sm-6">
             <a href="http://www.victorpimentelfotografia.com/" target="_blank" rel="noopener noreferrer">
               <img class="img-fluid d-block mx-auto" src="img/logos/clients/victor-pimentel.png" alt="Victor Pimentel fotografia">
             </a>
           </div>
-          <div class="col-md-6 col-sm-6">
-            <a href="#" rel="noopener noreferrer">
-              <img class="img-fluid d-block mx-auto" src="img/logos/clients/kdp.png" alt="KDP multimarcas">
-            </a>
-          </div>
-          <!-- <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/themeforest.jpg" alt="">
-            </a>
+          <div class="col-md-3 col-sm-6">
+            <!-- <a href="#" rel="noopener noreferrer"> -->
+              <img class="img-fluid d-block mx-auto" src="img/logos/clients/kdp.png" alt="KDP Multimarcas">
+            <!-- </a> -->
           </div>
           <div class="col-md-3 col-sm-6">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/creative-market.jpg" alt="">
-            </a>
-          </div> -->
+            <!-- <a href="#"> -->
+              <img class="img-fluid d-block mx-auto" src="img/logos/clients/auto-escola-padrao.png" alt="Auto Escola Padrão">
+            <!-- </a> -->
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- <a href="#"> -->
+              <img class="img-fluid d-block mx-auto" src="img/logos/clients/casa-da-concertina.png" alt="Casa da Concertina">
+            <!-- </a> -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <!-- <a href="#"> -->
+              <img class="img-fluid d-block mx-auto" src="img/logos/clients/creative.png" alt="Creative Gráfica e Camisaria">
+            <!-- </a> -->
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- <a href="#"> -->
+              <img class="img-fluid d-block mx-auto" src="img/logos/clients/espaco-ar.png" alt="Espaço Arnaldo Rodrigues">
+            <!-- </a> -->
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <!-- <a href="#"> -->
+              <img class="img-fluid d-block mx-auto" src="img/logos/clients/mania-de-ideias.png" alt="Mania de Ideias">
+            <!-- </a> -->
+          </div>
         </div>
       </div>
     </section>
