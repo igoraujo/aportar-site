@@ -1,72 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt">
 
-  <head>
-    <!-- Google Tag Manager -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132200339-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<head>
+  <!-- Google Tag Manager -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132200339-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-132200339-1');
+  </script>
+  <!-- End Google Tag Manager -->
+  <title>Aportar - Representações</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Igor Araújo">
 
-      gtag('config', 'UA-132200339-1');
-    </script>
-    <!-- End Google Tag Manager -->
-    <title>Aportar - Representações</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="author" content="Igor Araújo">
+  <meta name="description"
+    content="A missão da Aportar é promover o seu produto. Somos uma empresa interessada em facilitar seu trabalho.">
+  <meta name="keywords"
+    content="vendas, venda, compra, compras, produto, produtos, terceirização, venda de rua, representação, comercial, representação comercial, representante, vendedor, aportar, aporte, aportar-me, aport, apor">
+  <meta name="robots" content="index, follow">
+  <meta name="revisit-after" content="1 day">
+  <meta name="language" content="Portuguese">
+  <meta name="generator" content="N/A">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-    <meta name="description" content="A missão da Aportar é promover o seu produto. Somos uma empresa interessada em facilitar seu trabalho.">
-    <meta name="keywords" content="vendas, venda, compra, compras, produto, produtos, terceirização, venda de rua, representação, comercial, representação comercial, representante, vendedor, aportar, aporte, aportar-me, aport, apor">
-    <meta name="robots" content="index, follow">
-    <meta name="revisit-after" content="1 day">
-    <meta name="language" content="Portuguese">
-    <meta name="generator" content="N/A">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://aportar.me">
+  <meta property="og:title" content="Aportar - Representações">
+  <meta property="og:site_name" content="Aportar - Representações">
 
-    <meta property="og:locale" content="pt_BR">
-    <meta property="og:url" content="https://aportar.me">
-    <meta property="og:title" content="Aportar - Representações">
-    <meta property="og:site_name" content="Aportar - Representações">
+  <meta property="og:description"
+    content="A missão da Aportar é promover o seu produto. Somos uma empresa interessada em facilitar seu trabalho.">
+  <meta property="og:image" content="https://aportar.me/img/logos/home.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="387">
+  <meta property="og:image:height" content="393">
 
-    <meta property="og:description" content="A missão da Aportar é promover o seu produto. Somos uma empresa interessada em facilitar seu trabalho.">
-    <meta property="og:image" content="https://aportar.me/img/logos/home.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="387">
-    <meta property="og:image:height" content="393">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" href="img/logos/favicon.ico" />
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    
-    <link rel="icon" href="img/logos/favicon.ico" />
+  <!-- Custom styles for this template -->
+  <link href="css/agency.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet" type="text/css">
 
-    <!-- Custom styles for this template -->
-    <link href="css/agency.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet" type="text/css">
+  <!-- Stylesheets -->
+  <!-- <link rel="stylesheet" href="../assets/css/docs.theme.min.css"> -->
+  <link rel="stylesheet" href="css/css/docs.theme.min.css">
 
+  <!-- Owl Stylesheets -->
+  <link rel="stylesheet" href="css/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owlcarousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/index.css">
 
-  </head>
+  <style>
+    .img-85 {
+      width: 85% !important;
+    }
+    .bg-light {
+      padding-bottom: 5%;
+    }
 
-  <body id="page-top">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQXB9WH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="text-shadow:2px 2px 3px #000; padding:8px;">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="210px" height="60px" viewBox="0 0 300 86" enable-background="new 0 0 300 86" xml:space="preserve">
-            <image id="image0" width="300" height="86" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAABWEAYAAAAlI3clAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+  </style>
+
+</head>
+
+<body id="page-top">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQXB9WH" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav"
+    style="text-shadow:2px 2px 3px #000; padding:8px;">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px" y="0px" width="210px" height="60px" viewBox="0 0 300 86" enable-background="new 0 0 300 86"
+          xml:space="preserve">
+          <image id="image0" width="300" height="86" x="0" y="0" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAABWEAYAAAAlI3clAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
               AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0T///////8JWPfcAAAA
               CXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH4gwaDB8dykrR8AAAdJVJREFUeNrtXWWUFEcXva+7
               Z9YNFllYdLHgHjw4BAKEEDy4ewgW3IMECBosSASCu7u7uy+yOMu6znS970f1bBISPtZgCZl7DqeY
@@ -596,101 +620,105 @@
               MTk6MzE6MjktMDc6MDClzcLwAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTEyLTI2VDE5OjMxOjI5
               LTA3OjAw1JB6TAAAAABJRU5ErkJggg==" />
         </svg>
-        </a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">O Que Fazemos</a>
-            </li>
-            <!-- <li class="nav-item">
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">O Que Fazemos</a>
+          </li>
+          <!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li> -->
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Sobre Nós</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Nosso Time</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#clients">Clientes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
-            </li>
-          </ul>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Nosso Time</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#clients">Clientes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">Bem vindo ao Aportar!</div>
+        <div class="intro-heading text-uppercase">Prazer em conhecê-lo</div>
+        <div class="intro-lead-in">"O destino do seu <span style="color:#FFDD00">produto</span> é o seu <span
+            style="color:#FFDD00">cliente</span>"</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Explorar</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">O que Fazemos</h2>
+          <h3 class="section-subheading text-muted">
+            <p>
+              <span>Vamos imaginar você em uma poltrona bem confortável, reclinável e bem aconchegante.
+                Imaginou?</span><br>
+              <span> Agora imagine sua marca nessas condições.</span><br>
+              <span>A missão da Aportar é promover o seu produto.</span><br>
+              <span>Somos uma empresa interessada em facilitar seu trabalho.</span>
+            </p>
+            <p>
+              <span>Contamos com uma equipe de vendedores talentosos e experientes.</span><br>
+              <span>A Aportar ajuda Empresas e Empreendedores a alavancar suas vendas e expandir seu negócio.</span><br>
+              <span>Nosso objetivo é simples: Fazer com que seu produto chegue até o seu cliente.</span>
+            </p>
+          </h3>
         </div>
       </div>
-    </nav>
-
-    <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in">Bem vindo ao Aportar!</div>
-          <div class="intro-heading text-uppercase">Prazer em conhecê-lo</div>
-          <div class="intro-lead-in">"O destino do seu <span style="color:#FFDD00">produto</span> é o seu <span style="color:#FFDD00">cliente</span>"</div>          
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Explorar</a>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Entendemos seu produto</h4>
+          <p class="text-muted">Identificamos seu cliente alvo.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <!-- <i class="fas fa-laptop fa-stack-1x fa-inverse"></i> -->
+            <i class="fas fa-bullhorn fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Divulgamos seu produto</h4>
+          <p class="text-muted">Oferecemos seu produto.</p>
+        </div>
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">Vendemos seu produto</h4>
+          <p class="text-muted">Somos o ponta a ponta do seu produto ao cliente.</p>
         </div>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <!-- Services -->
-    <section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">O que Fazemos</h2>
-            <h3 class="section-subheading text-muted">
-              <p> 
-                <span>Vamos imaginar você em uma poltrona bem confortável, reclinável e bem aconchegante. Imaginou?</span><br>
-                <span> Agora imagine sua marca nessas condições.</span><br>
-                <span>A missão da Aportar é promover o seu produto.</span><br>
-                <span>Somos uma empresa interessada em facilitar seu trabalho.</span>
-              </p>
-              <p>
-                <span>Contamos com uma equipe de vendedores talentosos e experientes.</span><br>
-                <span>A Aportar ajuda Empresas e Empreendedores a alavancar suas vendas e expandir seu negócio.</span><br>
-                <span>Nosso objetivo é simples: Fazer com que seu produto chegue até o seu cliente.</span>
-              </p>
-            </h3>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Entendemos seu produto</h4>
-            <p class="text-muted">Identificamos seu cliente alvo.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <!-- <i class="fas fa-laptop fa-stack-1x fa-inverse"></i> -->
-              <i class="fas fa-bullhorn fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Divulgamos seu produto</h4>
-            <p class="text-muted">Oferecemos seu produto.</p>
-          </div>
-          <div class="col-md-4">
-            <span class="fa-stack fa-4x">
-              <i class="fas fa-circle fa-stack-2x text-primary"></i>
-              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-            </span>
-            <h4 class="service-heading">Vendemos seu produto</h4>
-            <p class="text-muted">Somos o ponta a ponta do seu produto ao cliente.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Portfolio Grid -->
-    <!-- <section class="bg-light" id="portfolio">
+  <!-- Portfolio Grid -->
+  <!-- <section class="bg-light" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -787,33 +815,36 @@
       </div>
     </section> -->
 
-    <!-- About -->
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Sobre</h2>
-            <h3 class="section-subheading text-muted">Um pouco da nossa história</h3>
-          </div>
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Sobre</h2>
+          <h3 class="section-subheading text-muted">Um pouco da nossa história</h3>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2018-2019</h4>
+                  <h4 class="subheading">Nosso Começo</h4>
                 </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>2018-2019</h4>
-                    <h4 class="subheading">Nosso Começo</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Como toda história de sucesso tem um início, a nossa não pode ficar de fora. Elaborada em 2018 através da necessidade que as Empresas e Empreendedores tem de levar o seu produto ou marca até o seu cliente, a Aportar foi criada. O que nos motiva é saber que podemos facilitar todo o seu trabalho, faça parte de nossa história e deixe-nos ajudar a contar a sua.</p>
-                  </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Como toda história de sucesso tem um início, a nossa não pode ficar de fora.
+                    Elaborada em 2018 através da necessidade que as Empresas e Empreendedores tem de levar o seu produto
+                    ou marca até o seu cliente, a Aportar foi criada. O que nos motiva é saber que podemos facilitar
+                    todo o seu trabalho, faça parte de nossa história e deixe-nos ajudar a contar a sua.</p>
                 </div>
-              </li>
-              <!-- <li class="timeline-inverted">
+              </div>
+            </li>
+            <!-- <li class="timeline-inverted">
                 <div class="timeline-image">
                   <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
                 </div>
@@ -855,78 +886,80 @@
                   </div>
                 </div>
               </li> -->
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>Seja Parte
-                    <br>da Nossa
-                    <br>História!</h4>
-                </div>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>Seja Parte
+                  <br>da Nossa
+                  <br>História!</h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="bg-light" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">OS FUNDADORES</h2>
+          <h3 class="section-subheading text-muted">Quem está por trás</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/ranfleysson.jpg"
+              alt="Ranfleysson Matheus Cardoso de Oliveira">
+            <h4>Ranfleysson Matheus</h4>
+            <p class="text-muted">CEO</p>
+            <ul class="list-inline social-buttons">
+              <!-- <li class="list-inline-item">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li> -->
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/ranfleysson-matheus-cardoso-de-oliveira-761ab37a/" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
               </li>
             </ul>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Team -->
-    <section class="bg-light" id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">OS FUNDADORES</h2>
-            <h3 class="section-subheading text-muted">Quem está por trás</h3>
+        <div class="col-sm-6">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="img/team/igor.jpg" alt="Igor da Silva Araújo">
+            <h4>Igor Araújo</h4>
+            <p class="text-muted">CIO</p>
+            <ul class="list-inline social-buttons">
+              <!-- <li class="list-inline-item">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li> -->
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/igoraujo/" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/ranfleysson.jpg" alt="Ranfleysson Matheus Cardoso de Oliveira">
-              <h4>Ranfleysson Matheus</h4>
-              <p class="text-muted">CEO</p>
-              <ul class="list-inline social-buttons">
-                <!-- <li class="list-inline-item">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li> -->
-                <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/in/ranfleysson-matheus-cardoso-de-oliveira-761ab37a/" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/igor.jpg" alt="Igor da Silva Araújo">
-              <h4>Igor Araújo</h4>
-              <p class="text-muted">CIO</p>
-              <ul class="list-inline social-buttons">
-                <!-- <li class="list-inline-item">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li> -->
-                <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/in/igoraujo/" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- <div class="col-sm-4">
+        <!-- <div class="col-sm-4">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
               <h4>Diana Pertersen</h4>
@@ -950,392 +983,453 @@
               </ul>
             </div>
           </div> -->
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Cada escolha que você faz tem um resultado final. – "Zig Ziglar"</p>
-          </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <p class="large text-muted">Cada escolha que você faz tem um resultado final. – "Zig Ziglar"</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Clients -->
-    <section class="py-5" id="clients">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <a href="http://www.victorpimentelfotografia.com/" target="_blank" rel="noopener noreferrer">
-              <img class="img-fluid d-block mx-auto" src="img/logos/clients/victor-pimentel.png" alt="Victor Pimentel fotografia">
-            </a>
+  <!--  Demos -->
+  <section class="py-5" id="clients">
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <h4>
+              <a href="http://www.victorpimentelfotografia.com/" target="_blank" rel="noopener noreferrer">
+                <img class="img-fluid d-block mx-auto" src="img/logos/clients/bkp2/victor-pimentel.png"alt="Victor Pimentel fotografia">
+              </a>
+            </h4>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <!-- <a href="#" rel="noopener noreferrer"> -->
-              <img class="img-fluid d-block mx-auto" src="img/logos/clients/kdp.png" alt="KDP Multimarcas">
-            <!-- </a> -->
+          <div class="item">
+            <h4>
+              <!-- <a href="#" rel="noopener noreferrer"> -->
+              <img class="img-fluid d-block mx-auto img-85" src="img/logos/clients/bkp2/kdp.png" alt="KDP Multimarcas">
+              <!-- </a> -->
+            </h4>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <!-- <a href="#"> -->
-              <img class="img-fluid d-block mx-auto" src="img/logos/clients/auto-escola-padrao.png" alt="Auto Escola Padrão">
-            <!-- </a> -->
+          <div class="item">
+            <h4>
+              <!-- <a href="#"> -->
+              <img class="img-fluid d-block mx-auto img-85" src="img/logos/clients/bkp2/auto-escola-padrao.png" alt="Auto Escola Padrão">
+              <!-- </a> -->
+            </h4>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <!-- <a href="#"> -->
-              <img class="img-fluid d-block mx-auto" src="img/logos/clients/casa-da-concertina.png" alt="Casa da Concertina">
-            <!-- </a> -->
+          <div class="item">
+            <h4>
+              <!-- <a href="#"> -->
+              <img class="img-fluid d-block mx-auto img-85" src="img/logos/clients/bkp2/casa-da-concertina.png" alt="Casa da Concertina">
+              <!-- </a> -->
+            </h4>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <!-- <a href="#"> -->
-              <img class="img-fluid d-block mx-auto" src="img/logos/clients/creative.png" alt="Creative Gráfica e Camisaria">
-            <!-- </a> -->
+          <div class="item">
+            <h4>
+              <!-- <a href="#"> -->
+              <img class="img-fluid d-block mx-auto img-85" src="img/logos/clients/bkp2/creative.png" alt="Creative Gráfica e Camisaria">
+              <!-- </a> -->
+            </h4>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <!-- <a href="#"> -->
-              <img class="img-fluid d-block mx-auto" src="img/logos/clients/espaco-ar.png" alt="Espaço Arnaldo Rodrigues">
-            <!-- </a> -->
+          <div class="item">
+            <h4>
+              <!-- <a href="#"> -->
+              <img class="img-fluid d-block mx-auto img-85" src="img/logos/clients/bkp2/mania-de-ideias.png" alt="Mania de Ideias">
+              <!-- </a> -->
+            </h4>
           </div>
-          <div class="col-md-3 col-sm-6">
-            <!-- <a href="#"> -->
-              <img class="img-fluid d-block mx-auto" src="img/logos/clients/mania-de-ideias.png" alt="Mania de Ideias">
-            <!-- </a> -->
-          </div>
+          <div class="item">
+              <h4>
+                <!-- <a href="#"> -->
+                <img class="img-fluid d-block mx-auto img-85" src="img/logos/clients/bkp2/espaco-ar.png" alt="Mania de Ideias">
+                <!-- </a> -->
+              </h4>
+            </div>
+
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contate-nos</h2>
-            <h3 class="section-subheading text-muted">Deixe-nos um recadinho!</h3>
-          </div>
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Contate-nos</h2>
+          <h3 class="section-subheading text-muted">Deixe-nos um recadinho!</h3>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <form id="contactForm"  action="mail/contact_me.php" method="post">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" name="name" type="text" placeholder="Seu Nome *" required="required" data-validation-required-message="Me dia o seu nome.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" name="email" type="email" placeholder="Seu E-mail *" required="required" data-validation-required-message="Não se esqueça do seu e-mail.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control sp_celphones" id="phone" name="phone" type="text" placeholder="Seu Telefone">
-                    <p class="help-block text-danger"></p>
-                  </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form id="contactForm" action="mail/contact_me.php" method="post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input class="form-control" id="name" name="name" type="text" placeholder="Seu Nome *"
+                    required="required" data-validation-required-message="Me dia o seu nome.">
+                  <p class="help-block text-danger"></p>
                 </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea class="form-control" id="message" name="message" placeholder="Digite aqui sua Mensagem *" required="required" data-validation-required-message="Ops! esqueceu de escrever a mensagem?!"></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
+                <div class="form-group">
+                  <input class="form-control" id="email" name="email" type="email" placeholder="Seu E-mail *"
+                    required="required" data-validation-required-message="Não se esqueça do seu e-mail.">
+                  <p class="help-block text-danger"></p>
                 </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <input id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit" value="Enviar Mensagem" />
+                <div class="form-group">
+                  <input class="form-control sp_celphones" id="phone" name="phone" type="text"
+                    placeholder="Seu Telefone">
+                  <p class="help-block text-danger"></p>
                 </div>
               </div>
-            </form>
-          </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <textarea class="form-control" id="message" name="message" placeholder="Digite aqui sua Mensagem *"
+                    required="required"
+                    data-validation-required-message="Ops! esqueceu de escrever a mensagem?!"></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="col-lg-12 text-center">
+                <div id="success"></div>
+                <input id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit"
+                  value="Enviar Mensagem" />
+              </div>
+            </div>
+          </form>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; <a href="https://aportar.me">aportar.me</a> 2018</span>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="https://www.instagram.com/aportaroficial/" target="_blank" rel="noopener noreferrer">
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com/aaportar/" target="_blank" rel="noopener noreferrer">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <!-- <li class="list-inline-item">
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <span class="copyright">Copyright &copy; <a href="https://aportar.me">aportar.me</a> 2018</span>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/aportaroficial/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/aaportar/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <!-- <li class="list-inline-item">
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </li> -->
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <i class="far fa-envelope-open" style="color:#006F80"></i><a href="mailto:contato@aportar.me">&nbsp;&nbsp;contato@aportar.me</a>
-              </li>
-              <li class="list-inline-item">
-                <i class="fas fa-phone-square" style="color:#006F80"></i> <a href="tel:38988192836">+55 38 98819-2836</a>
-              </li>
-              <li class="list-inline-item">
-                <i class="fas fa-hand-holding" style="color:#006F80"></i><a href="mailto:vagas@aportar.me">&nbsp;&nbsp;vagas@aportar.me</a>
-              </li>
-            </ul>
-          </div>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <i class="far fa-envelope-open" style="color:#006F80"></i><a
+                href="mailto:contato@aportar.me">&nbsp;&nbsp;contato@aportar.me</a>
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-phone-square" style="color:#006F80"></i> <a href="tel:38988192836">+55 38 98819-2836</a>
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-hand-holding" style="color:#006F80"></i><a
+                href="mailto:vagas@aportar.me">&nbsp;&nbsp;vagas@aportar.me</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-- Portfolio Modals -->
+  <!-- Portfolio Modals -->
 
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
+  <!-- Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                  blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
+                  expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Threads</li>
+                  <li>Category: Illustration</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
+  <!-- Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                  blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
+                  expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Explore</li>
+                  <li>Category: Graphic Design</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
+  <!-- Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                  blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
+                  expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Finish</li>
+                  <li>Category: Identity</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
+  <!-- Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                  blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
+                  expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Lines</li>
+                  <li>Category: Branding</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
+  <!-- Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                  blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
+                  expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Southwest</li>
+                  <li>Category: Website Design</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
+  <!-- Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
-                  </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Project</button>
-                </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Project Name</h2>
+                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est
+                  blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
+                  expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Window</li>
+                  <li>Category: Photography</li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+  <!-- Contact form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/agency.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/agency.min.js"></script>
 
-    <!-- Custom scripts jQuery mask -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+  <!-- Custom scripts jQuery mask -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+  <script src="css/owlcarousel/owl.carousel.js"></script>
 
-    <script>
+  <script>
+    let protocol = window.location.protocol;
 
-      let protocol = window.location.protocol;
-      
-      if(protocol.includes("http:")){
-        window.location = "https://aportar.me";
-      }
-
-      var SPMaskBehavior = function (val) {
-        return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
-      },
+    // if(protocol.includes("http:")){
+    //   window.location = "https://aportar.me";
+    // }
+    var SPMaskBehavior = function (val) {
+      return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
+    },
       spOptions = {
-        onKeyPress: function(val, e, field, options) {
-            field.mask(SPMaskBehavior.apply({}, arguments), options);
-          }
+        onKeyPress: function (val, e, field, options) {
+          field.mask(SPMaskBehavior.apply({}, arguments), options);
+        }
       };
+    $('.sp_celphones').mask(SPMaskBehavior, spOptions);
 
-      $('.sp_celphones').mask(SPMaskBehavior, spOptions);
+    $(document).ready(function () {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        items: 4,
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            // nav: true
+          },
+          600: {
+            items: 3,
+            nav: false
+          },
+          1000: {
+            items: 4,
+            // nav: true,
+            loop: true,
+            margin: 20
+          }
+        }
+      });
+    });
+  </script>
 
-    </script>
-
-  </body>
+</body>
 
 </html>
