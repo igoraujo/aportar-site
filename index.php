@@ -1000,7 +1000,7 @@
           <div class="item">
             <h4>
               <a href="http://www.victorpimentelfotografia.com/" target="_blank" rel="noopener noreferrer">
-                <img class="img-fluid d-block mx-auto" src="img/logos/clients/bkp2/victor-pimentel.png"alt="Victor Pimentel fotografia">
+                <img class="img-fluid d-block mx-auto img-85" src="img/logos/clients/bkp2/victor-pimentel.png"alt="Victor Pimentel fotografia">
               </a>
             </h4>
           </div>
