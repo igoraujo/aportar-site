@@ -1000,7 +1000,7 @@
           <div class="item">
             <h4>
               <a href="http://www.victorpimentelfotografia.com/" target="_blank" rel="noopener noreferrer">
-                <img class="img-fluid d-block mx-auto" src="img/logos/clients/bkp2/victor-pimentel.png"alt="Victor Pimentel fotografia">
+                <img class="img-fluid d-block mx-auto img-85" src="img/logos/clients/bkp2/victor-pimentel.png"alt="Victor Pimentel fotografia">
               </a>
             </h4>
           </div>
@@ -1387,17 +1387,19 @@
   <script>
     let protocol = window.location.protocol;
 
-    // if(protocol.includes("http:")){
-    //   window.location = "https://aportar.me";
-    // }
+    if(protocol.includes("http:")){
+      window.location = "https://aportar.me";
+    }
+
     var SPMaskBehavior = function (val) {
       return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
     },
-      spOptions = {
-        onKeyPress: function (val, e, field, options) {
-          field.mask(SPMaskBehavior.apply({}, arguments), options);
-        }
-      };
+    spOptions = {
+      onKeyPress: function (val, e, field, options) {
+        field.mask(SPMaskBehavior.apply({}, arguments), options);
+      }
+    };
+
     $('.sp_celphones').mask(SPMaskBehavior, spOptions);
 
     $(document).ready(function () {
