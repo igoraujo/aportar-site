@@ -54,7 +54,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.css" rel="stylesheet">
-  <link href="css/index.css" rel="stylesheet" type="text/css">
+
 
   <!-- Stylesheets -->
   <!-- <link rel="stylesheet" href="../assets/css/docs.theme.min.css"> -->
@@ -63,7 +63,6 @@
   <!-- Owl Stylesheets -->
   <link rel="stylesheet" href="css/owlcarousel/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owlcarousel/assets/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/index.css">
 
   <style>
     .img-85 {
@@ -937,7 +936,7 @@
         </div>
         <div class="col-sm-6">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/igor.jpg" alt="Igor da Silva Araújo">
+            <img id="cio" class="mx-auto rounded-circle" src="" alt="Igor da Silva Araújo">
             <h4>Igor Araújo</h4>
             <p class="text-muted">CIO</p>
             <ul class="list-inline social-buttons">
@@ -1042,7 +1041,7 @@
           <div class="item">
               <h4>
                 <!-- <a href="#"> -->
-                <img class="img-fluid d-block mx-auto img-85" src="img/logos/clients/bkp2/espaco-ar.png" alt="Mania de Ideias">
+                <img class="img-fluid d-block mx-auto img-85" src="img/logos/clients/bkp2/espaco-ar.png" alt="Espaço AR">
                 <!-- </a> -->
               </h4>
             </div>
@@ -1401,6 +1400,27 @@
       };
       
     $('.sp_celphones').mask(SPMaskBehavior, spOptions);
+
+    function loadData(){
+      var teste;
+      
+      $.getJSON( "./data.json", function(data) {
+        teste = data;
+      });
+
+      var o = teste.responseText;
+
+      let url = o.images[0].src;
+  
+      $( "#cio" ).attr({
+          src: url,
+          // title: name,
+          // alt: name
+        });
+    }
+
+
+
 
     $(document).ready(function () {
       var owl = $('.owl-carousel');
